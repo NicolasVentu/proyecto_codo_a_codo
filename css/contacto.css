@@ -208,7 +208,7 @@ body {
 
 @media (max-width: 350px) {
 .conteiner-form textarea {
-    width: 200px;
+  font-size: 0.55rem;
 }
 }
 
