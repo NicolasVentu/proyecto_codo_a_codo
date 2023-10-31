@@ -171,13 +171,6 @@ body {
 }
 /*media querys*/
 @media (max-width: 350px) {
- .contenedor .carrousel .lista_imagenes {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .partidos {
   width: 200px;
   height: 100%;
