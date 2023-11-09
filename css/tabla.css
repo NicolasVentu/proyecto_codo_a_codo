@@ -46,7 +46,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(184, 24, 56);
+  background-color: #a81010; 
   padding: 0.5em;
 }
 .contenedor .header figure img {
@@ -72,7 +72,7 @@ body {
   background-image:url("https://img.webme.com/pic/w/webcp/bg04.jpg");
 }
 .posiciones{
-  width: 60%;
+  width: 55%;
   border-collapse: collapse;
   background-color: white;
   text-align: center;
@@ -85,14 +85,15 @@ body {
   color: white;
 }
 .posiciones thead th{
-  background-color: #389b85;
-  border-bottom: solid 2px #0F362D;
+  background-color:   #c71414;
+  border-bottom: solid 2px #d9f00a;;
   padding: 1em;
 }
 .posiciones thead td{
-  background-color: #389b85;
+  background-color:   #c71414;
   padding: 1em;
-  border-bottom: solid 2px #0F362D;
+  border-bottom: solid 2px #d9f00a;;
+  font-weight: bold;
 }
 .posiciones img{
   width:30px;
@@ -104,12 +105,12 @@ padding: 0.3em;
  
 }
 .posiciones tbody tr:nth-child(even){
-  background-color: #e4e0e0;
+  background-color: #f7f78e;
 }
 .posiciones tbody tr:hover td{
-  background-color: #369681;
-	color: white;
-}
+  background-color: #b11515;  
+  color: rgb(255, 255, 255);
+  }
 /*---------------------footer--------------------------*/
 .contenedor .footer {
   height: auto;
@@ -120,26 +121,26 @@ padding: 0.3em;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(184, 24, 56);
+  background-color: #a81010; 
   color: white;
   font-size: small;
 }
 .footer .botones {
   display: flex;
 }
-.botones .facebook:hover{
+.botones .facebook:hover {
   color: white;
   background-color: rgb(243, 82, 82);
 }
-.botones .instagram:hover{
+.botones .instagram:hover {
   color: white;
   background-color: rgb(243, 82, 82);
 }
-.botones .twitter:hover{
+.botones .twitter:hover {
   color: white;
   background-color: rgb(243, 82, 82);
 }
-.botones .youtube:hover{
+.botones .youtube:hover {
   color: white;
   background-color: rgb(243, 82, 82);
 }
@@ -160,7 +161,7 @@ padding: 0.3em;
   color: white;
   font-size: small;
 }
-.footer a:hover{
+.footer a:hover {
   background-color: rgb(243, 82, 82);
 }
 /*media querys*/

@@ -50,7 +50,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(184, 24, 56);
+  background-color: #a81010; 
   padding: 0.5em;
 }
 .contenedor .header figure img {
@@ -88,6 +88,7 @@ body {
   box-shadow: 0 0.25rem 0.5rem black;
   border-radius: 0.2rem;
 }
+
 .contenedor .carrousel .lista_imagenes img {
   flex: 1 0 100%;
   scroll-snap-align: start;
@@ -106,7 +107,7 @@ body {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: rgb(255, 136, 0);
   opacity: 0.75;
   transition: opacity ease 250ms;
   margin: 1em;
@@ -130,6 +131,7 @@ body {
   width: 35%;
   border-collapse: collapse;
   background-color: white;
+
   text-align: center;
   vertical-align: middle;
   align-items: center;
@@ -142,11 +144,11 @@ body {
 
 .partidos a:hover{
   color: black;
-  background-color: #389b85;
+  background-color: rgb(247, 247, 95);
 }
 .partidos thead th {
-  background-color: #389b85;
-  border-bottom: solid 2px #0f362d;
+  background-color:   #c71414;
+  border-bottom: solid 2px #d9f00a;
   padding: 1em;
 }
 
@@ -161,17 +163,17 @@ body {
 
 .partidos tbody th {
   padding: 0.3em;
-  border-bottom: solid 2px #0f362d;
+  border-bottom: solid 2px #d9f00a;;
 }
 .partidos tbody tr:nth-child(even) {
-  background-color: #e4e0e0;
+  background-color: #f7f78e;
 }
 .partidos tbody tr:hover td {
-  background-color: #369681;
-  color: white;
+  background-color: #b11515;  
+  color: rgb(255, 255, 255);
 }
 .goleadores {
-  width: 30%;
+  width: 35%;
   border-collapse: collapse;
   background-color: white;
   text-align: center;
@@ -184,30 +186,31 @@ body {
   color: white;
 }
 .goleadores thead th {
-  background-color: #389b85;
-  border-bottom: solid 2px #0f362d;
+  background-color:   #c71414;
+  border-bottom: solid 2px #d9f00a;;
   padding: 1em;
+ 
 }
 .goleadores thead td {
-  background-color: #389b85;
+  background-color:   #c71414;
   padding: 1em;
-  border-bottom: solid 2px #0f362d;
+  border-bottom: solid 2px #d9f00a;;
+  font-weight: bold;
 }
 .goleadores img {
   width: 30px;
   height: 30px;
   padding: 0%;
 }
-.goleadores th,
-td {
+.goleadores th,td {
   padding: 0.3em;
 }
 .goleadores tbody tr:nth-child(even) {
-  background-color: #e4e0e0;
+  background-color: #f7f78e;
 }
 .goleadores tbody tr:hover td {
-  background-color: #369681;
-  color: white;
+  background-color: #b11515;  
+  color: rgb(255, 255, 255);
 }
 /*---------------------footer--------------------------*/
 .contenedor .footer {
@@ -219,7 +222,7 @@ td {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(184, 24, 56);
+  background-color: #a81010; 
   color: white;
   font-size: small;
 }
@@ -261,6 +264,13 @@ td {
 }
 .footer a:hover {
   background-color: rgb(243, 82, 82);
+}
+/*media querys*/
+@media (max-width: 480px) {
+  .contenedor {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
 }
 /*media querys*/
 @media (max-width: 480px) {
