@@ -170,7 +170,7 @@ padding: 0.3em;
     font-size: 0.55rem;
   }
 }
-@media (max-width: 480px) {
+@media  only screen and (max-width: 480px) {
   .contenedor {
     flex-direction: column;
     flex-basis: 100%;
@@ -179,7 +179,7 @@ padding: 0.3em;
     font-size: 0.55rem;
   }
 }
-@media (max-width: 960px) {
+@media  only screen and (max-width: 960px) {
   .contenedor {
     flex-direction: column;
     flex-basis: 100%;

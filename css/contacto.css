@@ -111,7 +111,7 @@ body {
   font-weight: 700;
 }
 .container-form a i {
-  color: #124f0a;
+  color: #f0e116;
   margin-right: 10px;
 }
 .container-form form .campo1 {
@@ -147,14 +147,16 @@ body {
   font-size: 16px;
   border: none;
   outline: 0px;
-  background: #124f0a;
-  color: white;
+  font-weight: bold;
+  background: #f0e116;
+  color: rgb(238, 56, 56);
   border-radius: 3px;
   cursor: pointer;
   transition: all 300ms ease;
 }
 .container-form .btn-enviar:hover {
-  background: #2e810d;
+  background:rgb(238, 56, 56);
+  color: #f0e116;
 }
 
 /*---------------------footer--------------------------*/
@@ -212,26 +214,39 @@ body {
 }
 /*media querys*/
 
-@media only screen and (max-width: 350px) {
-  form .textarea {
+@media only screen and (max-width:350px) {
+  
+  .container-form form .campo1 {
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .container-form form .campo2 {
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .container-form form .textarea  {
     width: 300px;
     margin: 0px auto;
     margin-top: 50px;
   }
+  }
+
+@media  only screen and (max-width: 480px) {
+  .contenedor {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+}
+@media  only screen and (max-width: 960px) {
+  .contenedor {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
 }
 
-@media (max-width: 480px) {
-  .contenedor {
-    flex-direction: column;
-    flex-basis: 100%;
-  }
-}
-@media (max-width: 960px) {
-  .contenedor {
-    flex-direction: column;
-    flex-basis: 100%;
-  }
-}
+
 /* @media(max-width:350px) {
   .contenedor{
    grid-template-columns: auto;
@@ -240,8 +255,8 @@ body {
    "header " 
   "contenido "
   "footer ";
-  } */
-/*
+  }  
+
   }
   @media(max-width:900px) {
     .contenedor{
@@ -252,4 +267,5 @@ body {
     "contenido contenido contenido"
     "footer footer footer" 
     }
-    } */
+    } 
+    */
