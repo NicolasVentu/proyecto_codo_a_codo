@@ -15,16 +15,16 @@ body {
 .contenedor {
   display: grid;
   grid-gap: 0;
-  grid-template-rows: auto auto auto 20rem;
+  grid-template-rows: auto auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-    "header header header"
+    
     "carrousel carrousel carrousel"
     "contenido contenido contenido"
-    " footer footer footer";
+    ;
 }
 /*---------------------header--------------------------*/
-.header figure img:hover {
+.conten_header figure img:hover {
   background-color: rgb(243, 82, 82);
 }
 .tabla_de_posiciones:hover {
@@ -43,9 +43,9 @@ body {
   color: white;
   background-color: rgb(243, 82, 82);
 }
-.contenedor .header {
+.conten_header {
   width: 100%;
-  grid-area: header;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,12 +53,12 @@ body {
   background-color: #a81010; 
   padding: 0.5em;
 }
-.contenedor .header figure img {
+.conten_header figure img {
   padding: 1rem;
   width: 6em;
   height: 6em;
 }
-.contenedor .header a {
+.conten_header a {
   color: white;
   padding: 14px 20px;
   text-decoration: none;
@@ -216,10 +216,10 @@ body {
   color: rgb(255, 255, 255);
 }
 /*---------------------footer--------------------------*/
-.contenedor .footer {
-  height: auto;
+
+.conten_footer {
+  height: 20em;
   width: 100%;
-  grid-area: footer;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -229,7 +229,7 @@ body {
   color: white;
   font-size: small;
 }
-.footer .botones {
+.conten_footer .botones {
   display: flex;
 }
 .botones .facebook:hover {
@@ -248,12 +248,12 @@ body {
   color: white;
   background-color: rgb(243, 82, 82);
 }
-.footer img {
+.conten_footer img {
   padding-top: 0.6em;
   width: 15em;
   height: 4.5em;
 }
-.footer .botones a {
+.conten_footer .botones a {
   display: flex;
   flex-wrap: wrap;
   color: white;
@@ -261,11 +261,11 @@ body {
   text-decoration: none;
   justify-content: space-between;
 }
-.footer p {
+.conten_footer p {
   color: white;
   font-size: small;
 }
-.footer a:hover {
+.conten_footer a:hover {
   background-color: rgb(243, 82, 82);
 }
 /*media querys*/
